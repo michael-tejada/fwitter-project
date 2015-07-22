@@ -8,7 +8,13 @@
     <div class="container">
 
       <h1>Add a tweet</h1>
-
+      <form action="/tweet" method="POST">
+        <p>User: <input type="text" name="user"></p>
+        <p>Status: <input type="text" name="status"></p>
+        <input class="btn btn-primary" type="submit">
+      </form>
+      
+      <a href='/'>HOME</a>
 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
